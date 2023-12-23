@@ -1,0 +1,24 @@
+{
+  "name": "ai-powered-social-media-sentiment-analysis",
+  "version": "1.0.0",
+  "description": "A web-based tool that leverages AI to perform sentiment analysis on social media posts",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "AI",
+    "ML",
+    "Node.js",
+    "Sentiment Analysis",
+    "Social Media"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "dotenv": "^10.0.0",
+    "axios": "^0.21.1",
+    "@tensorflow/tfjs": "^3.8.0"
+  }
+}
